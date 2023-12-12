@@ -1,6 +1,10 @@
 body
 {
+<<<<<<< HEAD
     color: blue;
+=======
+    color: red;
+>>>>>>> d49f7aa (modificque la upitera)
     text-align: left;
     font-family: "Arial";
     font-size: 16px;
