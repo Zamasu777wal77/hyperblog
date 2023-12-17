@@ -1,11 +1,8 @@
 body
 {
-<<<<<<< HEAD
+    background: #1e1f24;
     color: blue;
-=======
-    color: red;
->>>>>>> d49f7aa (modificque la upitera)
-    text-align: left;
+    text-align: center;
     font-family: "Arial";
     font-size: 16px;
     margin: 0;
@@ -15,12 +12,25 @@ body
 
 #cabecera
 {
-    background: chartreuse;
-    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.75);
-    color: chocolate;
+    background: rgb(72, 42, 110);
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+    color: white;
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
+}
+
+#cabecera_logo
+{
+    width: 20px;
+    vertical-align: middle;
+}
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
 }
 
 #container
@@ -28,7 +38,7 @@ body
     width: 70%;
     padding: 0;
     text-align: left;
-    border: 1px solid #000;
+    border: 1px solid #ddd;
     margin: 0 auto;
 }
 
@@ -40,5 +50,6 @@ body
 #post
 
 {
+    background: white;
     padding: 1em;
 }
